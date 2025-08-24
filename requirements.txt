@@ -1,0 +1,7 @@
+crewai
+crewai_tools
+transformers
+huggingface_hub
+langchain
+langchain-community
+streamlit
