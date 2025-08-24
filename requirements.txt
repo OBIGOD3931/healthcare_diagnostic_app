@@ -1,10 +1,16 @@
+streamlit
 crewai
 crewai_tools
-transformers
-huggingface_hub
+
+# LLM backends
 langchain
 langchain-community
-streamlit
+langchain-groq
+transformers
+huggingface_hub
+
+# Utils
+python-dotenv
 
 
 
