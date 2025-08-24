@@ -1,3 +1,11 @@
+try:
+    import pysqlite3
+    import sys
+    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+except:
+    pass
+
+
 import streamlit as st
 from main import crew
 
@@ -13,3 +21,4 @@ if st.button("Run Diagnostic Support"):
         st.write(result)
     else:
         st.warning("Please enter patient symptoms first.")
+
