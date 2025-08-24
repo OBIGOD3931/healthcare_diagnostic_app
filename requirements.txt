@@ -1,20 +1,12 @@
-# Core
-streamlit
 crewai
 crewai_tools
-
-# LLM backends
-langchain
-langchain-community
-langchain-groq
 transformers
 huggingface_hub
+langchain
+langchain-community
+streamlit
 
-# Fix sqlite3 issue for Chroma
-pysqlite3-binary
 
-# Utils
-python-dotenv
 
 
 
